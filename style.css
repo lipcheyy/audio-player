@@ -39,7 +39,7 @@ body{
 }
 .cover{
     position: absolute;
-    width: 120%;
+    width: 100%;
     transition: 1s;
     z-index: 3;
     top:-7%
@@ -69,7 +69,7 @@ body{
     left: 28%;
     z-index: 4;
 }
-.song-name{
+.songname{
     position: absolute;
     z-index: 4;
     color: white;
@@ -104,7 +104,7 @@ body{
 .backward:hover{
     filter: invert(0);
 }
-.progressbar{
+/* .progressbar{
   appearance: none;
   width: 215px;
   height: 5px;
@@ -113,4 +113,19 @@ body{
    bottom: 5%;
   border-radius: 10px;
   left: 17%;
+} */
+.progress-bar{
+    position: absolute;
+    background: white;
+    border-radius: 5px;
+    width: 215px;
+    height: 8px;
+    z-index: 4;
+    bottom: 5%;
+    left: 17%;
+}
+.progressbar{
+    background: #b4de8a;
+    border-radius: 8px;
+    height: 6px;
 }
